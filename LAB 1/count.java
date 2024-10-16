@@ -22,5 +22,6 @@ public class count {
         }
         int count = chr - digits;
         System.out.println("Digits = "+digits+"  Characters = " + count);
+        sc.close();
     }
 }
